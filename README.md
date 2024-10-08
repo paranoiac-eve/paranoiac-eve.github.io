@@ -1,1 +1,1 @@
-XOXO
+paranoiac-eve.github.io
