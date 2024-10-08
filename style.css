@@ -37,7 +37,7 @@
 :root {
     --white: #fff;
     --black: #383e48;
-    --color: #9fb7c5;
+    --color: #8E82BF;
     --font: "Fredoka", system-ui;
 }
 
@@ -66,6 +66,11 @@ header {
     max-width: 500px;
     animation: FadeIn 4s;
 }
+
+header h1 {
+    font-family: var(--font);
+}
+
 
 nav ul li {
     margin: 0 1em;
