@@ -40,6 +40,7 @@
 --bg: #fff;
 --color:#0a141c;
 --color2:#aca4ce;
+--color3:#a8aeb0;
 }
 
 /* 基本設定 */
@@ -69,4 +70,22 @@ header {
 header h1 {
     margin-bottom: 0.5em;
     font-size: 1.5em;
+}
+
+/* ナビゲーション */
+nav {
+    margin: 3em auto 2em;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 0.2em 1em;
+    text-decoration: none;
+    color: var(--black);
 }
