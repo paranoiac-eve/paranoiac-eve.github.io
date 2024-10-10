@@ -87,5 +87,5 @@ nav ul li a {
     display: inline-block;
     padding: 0.2em 1em;
     text-decoration: none;
-    color: var(--black);
+    color: var(--color3);
 }
