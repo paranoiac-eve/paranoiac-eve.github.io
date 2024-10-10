@@ -50,7 +50,7 @@ body {
     letter-spacing: 0.1em;
     text-align: center;
     font-size: 13px;
-    color: var(--dark-color);
+    color: var(--color);
 }
 
 /* リンク */
