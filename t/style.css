@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* 全体に適用する */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: normal;
+}
+
+/* 共通 */
+:root {
+--bg: #fff;
+--color:#0a141c;
+--color2:#aca4ce;
+}
+
+/* 基本設定 */
+body {
+    background: var(--bg);
+    line-height: 1.7;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-size: 13px;
+    color: var(--dark-color);
+}
+
+/* リンク */
+a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: var(--color2);
+}
+
+/* ヘッダー */
+header {
+    margin: 0 auto;
+    padding: 3em 0;
+    width: 80%;
+    max-width: 600px;
+}
